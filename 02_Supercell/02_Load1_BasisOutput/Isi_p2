@@ -1,0 +1,171 @@
+feap ** Compression of a Si block - Phase 2 - Supercell**
+0 0 0 3 3 8
+! No vacancies
+
+KIMSetup
+  KIMFile feap_cbkim.in
+  length m  1.d0   ! m
+  force  N  1.d0   ! N  -> N/m^2 = Pa
+
+mate,1
+ solid
+  finite
+  ucon KIMModel
+    ELEMENT Si(diamond)-SW
+
+param
+ nx = 1
+ ny = 1
+ nz = 1
+ ax = 1 ! x-dimension
+ ay = 1 ! y-dimension
+ az = 1 ! z-dimension
+
+block
+  cart nx ny nz
+  mate 1
+  1 0 0 0
+  2 ax 0 0
+  3 ax ay 0
+  4 0 ay 0
+  5 0 0 az
+  6 ax 0 az
+  7 ax ay az
+  8 0 ay az
+
+eboun
+ 3 0 0 0 1
+ 3 az 0 0 1
+
+cboun ! default is additive
+ node 0 0 0  1 1 1
+ node 0 ay 0  1 0 1  
+
+param
+ ep = -0.0004831 ! Strain, to achieve %20 total strain
+ e = ep*az   ! Displacement
+
+edisp
+ 3 az 0 0 e
+
+
+end
+
+batch
+  tplot
+end
+  sums 3 3 1
+  show
+
+batch
+ tplot
+end
+ hist 1 1
+ hist 1 2
+ hist 1 3
+ hist 1 4
+ hist 1 5
+ hist 1 6 ! get us the basis vector for the next element in the basis
+ hist 1 7
+ hist 1 8
+ hist 1 9
+ hist 1 10
+ hist 1 11
+ hist 1 12
+ hist 1 13
+ hist 1 14
+ hist 1 15
+ hist 1 16
+ hist 1 17
+ hist 1 18
+ hist 1 19
+ hist 1 20
+ hist 1 21
+ hist 1 22
+ hist 1 23
+ hist 1 24 
+ hist 1 25
+ hist 1 26
+ hist 1 27
+ hist 1 28
+ hist 1 29
+ hist 1 30
+ hist 1 31
+ hist 1 32
+ hist 1 33
+ hist 1 33
+ hist 1 34
+ hist 1 35
+ hist 1 36
+ hist 1 37
+ hist 1 38
+ hist 1 39
+ hist 1 40
+ hist 1 41
+ hist 1 42
+ hist 1 43
+ hist 1 44
+ hist 1 45
+ show
+
+
+batch
+ plot,perspective
+ plot,node
+ plot,hide
+ plot,unde
+end
+0
+.5 .5 5
+0 1 0
+
+
+
+batch
+ prop,,1
+ dt,,2
+end
+2
+0 0
+414 414
+828 0
+
+
+
+batch
+  loop,,414
+    time
+    loop,,50
+      tang,,1
+    next
+    reac,coor,3,1.0
+     plot,defo,1,1
+     plot,frame,1
+     plot,wipe,1
+     plot,stre,3
+     plot,boun
+     plot,disp	
+     plot,node
+     plot,frame,2
+     plot,wipe,2
+     plot,cont,1
+     plot,boun
+     plot,disp	
+     plot,node
+     plot,frame,3
+     plot,wipe,3
+     plot,cont,2
+     plot,boun
+     plot,disp	
+     plot,node
+     plot,frame,4
+     plot,wipe,4
+     plot,cont,3
+     plot,boun
+     plot,disp	
+     plot,node
+  next
+end
+
+inte
+stop

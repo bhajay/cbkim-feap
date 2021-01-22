@@ -1,0 +1,580 @@
+ feap ** Compression of a Si block - Phase 2 - Supercell**                      
+
+     Solution date: Wed Nov 11 12:30:14 2020
+
+              Release 8.6.1d      
+              27 July 2020        
+
+     Input Data Filename: Isi_p2                                                                                                                          
+
+     Number of Nodal Points  - - - - - - :        8
+     Number of Elements  - - - - - - - - :        1
+
+     Spatial Dimension of Mesh - - - - - :        3
+     Degrees-of-Freedom/Node (Maximum) - :        3
+     Equations/Element       (Maximum) - :        0
+     Number Element Nodes    (Maximum) - :        8
+
+     Number of Material Sets - - - - - - :        1
+     Number Parameters/Set   (Program) - :      350
+     Number Parameters/Set   (Users  ) - :      150
+
+     Number Added Element Equations  - - :        0
+
+     OpenKIM Setup
+          OpenKIM File = feap_cbkim.in  
+          Length Units = m              
+          Length Scale = 1.00E+00
+          Force Units  = N              
+          Force Scale  = 1.00E+00
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+   M a t e r i a l    P r o p e r t i e s
+
+     Material Number   1: Element Type: solid:                           
+     Degree of Freedom Assignments    Local    Global
+                                     Number    Number
+                                        1         1
+                                        2         2
+                                        3         3
+
+     T h r e e   D i m e n s i o n a l   S o l i d   E l e m e n t
+
+
+     OpenKIM Cauchy-Born Model
+          Material Name             = Si(diamond)-SW 
+          Internal KIM number       =   1
+          Requested History Storage =  45
+          Density          0.00000E+00
+
+          1-Gravity Load   0.00000E+00
+          2-Gravity Load   0.00000E+00
+          3-Gravity Load   0.00000E+00
+
+     C o n s t i t u t i v e    S t a r t
+
+          Start state  : Elastic
+
+     E l e m e n t    M o d e l
+
+          Formulation  : Finite Deformation Displacement
+          Element type : Displacement
+          Plot Output  : On
+          Interpolation: Lagrangian Polynomials
+          History terms/pt  =    45
+
+     W a r n i n g s   &   E r r o r s
+          Material density is zero.
+
+
+     U s e r   H i s t o r y   I n f o r m a t i o n
+
+          Number of history variables/quad point          45
+          Number of history variables total              360
+          Number of element history variables total        0
+
+
+  C o n s t a n t    V a l u e s
+
+     Constant nx =  1.00000000E+00
+     Constant ny =  1.00000000E+00
+     Constant nz =  1.00000000E+00
+     Constant ax =  1.00000000E+00
+     Constant ay =  1.00000000E+00
+     Constant az =  1.00000000E+00
+
+          Part(   1) = PART0001       
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+   N o d e   G e n e r a t i o n s
+
+          Number of xi_1-increments        1
+          Number of xi_2-increments        1
+          Number of xi_3-increments        1
+          First node number                1
+          First element number             1
+          Element material number          1
+          Node line increment              0
+          Block type (0-40)               10
+
+
+     Block coordinates specified as: cartesian      
+
+     node     1 coord     2 coord     3 coord
+        1   0.000E+00   0.000E+00   0.000E+00
+        2   1.000E+00   0.000E+00   0.000E+00
+        3   1.000E+00   1.000E+00   0.000E+00
+        4   0.000E+00   1.000E+00   0.000E+00
+        5   0.000E+00   0.000E+00   1.000E+00
+        6   1.000E+00   0.000E+00   1.000E+00
+        7   1.000E+00   1.000E+00   1.000E+00
+        8   0.000E+00   1.000E+00   1.000E+00
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+
+  N o d a l   C o o r d i n a t e s
+
+      Node      1 coord      2 coord      3 coord
+         1   0.0000E+00   0.0000E+00   0.0000E+00
+         2   1.0000E+00   0.0000E+00   0.0000E+00
+         3   0.0000E+00   1.0000E+00   0.0000E+00
+         4   1.0000E+00   1.0000E+00   0.0000E+00
+         5   0.0000E+00   0.0000E+00   1.0000E+00
+         6   1.0000E+00   0.0000E+00   1.0000E+00
+         7   0.0000E+00   1.0000E+00   1.0000E+00
+         8   1.0000E+00   1.0000E+00   1.0000E+00
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+   E l e m e n t   C o n n e c t i o n s
+
+    Elmt Mat Reg  Type  1-node  2-node  3-node  4-node  5-node  6-node  7-node
+                        8-node
+       1   1   0 Unkn?       1       2       4       3       5       6       8
+                             7
+
+          Part(   1): Elm start =       1
+                      Elm last  =       1
+                      Nodes/el. =       8
+
+  C o n s t a n t    V a l u e s
+
+     Constant ep = -4.83100000E-04
+     Constant e  = -4.83100000E-04
+
+     E l e m e n t   S i z e   V a l u e s
+          h-minimum =  1.0000E+00
+          h-maximum =  1.7321E+00
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+  E d g e    N o d a l    B.C.
+
+    node  1-B.C.  2-B.C.  3-B.C.
+       1       0       0       1
+       2       0       0       1
+       3       0       0       1
+       4       0       0       1
+       5       0       0       1
+       6       0       0       1
+       7       0       0       1
+       8       0       0       1
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+  E d g e    N o d a l    V a l u e
+
+    Node     1-Displ     2-Displ     3-Displ
+       5  0.0000E+00  0.0000E+00 -4.8310E-04
+       6  0.0000E+00  0.0000E+00 -4.8310E-04
+       7  0.0000E+00  0.0000E+00 -4.8310E-04
+       8  0.0000E+00  0.0000E+00 -4.8310E-04
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+  C o o r d i n a t e    N o d a l    V a l u e s
+
+    Node  1-B.C.   2-B.C.   3-B.C. 
+       1       1       1       1
+       3       1       0       1
+
+     Material    Element Tag   Element Type  NH1/2 History    NH3 History
+          1              1      Solid                360              0
+
+     P a r t i t i o n   1
+
+     E q u a t i o n / P r o b l e m   S u m m a r y:
+
+       Mesh dimension  (ndm) =         3 :  Number nodes     =               8
+       Number dof/node (ndf) =         3 :  Number elements  =               1
+       Element eqs.   (nadd) =         0 :  Number materials =               1
+       Number rigid bodies   =         0 :  Number equations =              13
+                                         :  Number global eq =               0
+       Number joints         =         0 :  Number tang terms=              78
+       Transient integrator  = Static    :  Average col. ht. =               7
+
+
+  ---------------------------- END OF MESH INPUTS ----------------------------
+
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+     Solution Commands       Variable 1  Variable 2  Variable 3
+       tplot                 0.0000E+00  0.0000E+00  0.0000E+00
+ *Command   1 * tplo                v:   0.00       0.00       0.00    
+                                                           t=     0.12     0.03
+
+   Output interval for time history data =   1
+ *End of Solution Execution*                               t=     0.12     0.03
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+     Solution Commands       Variable 1  Variable 2  Variable 3
+       plot      perspecti   0.0000E+00  0.0000E+00  0.0000E+00
+       plot      node        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      hide        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      unde        0.0000E+00  0.0000E+00  0.0000E+00
+ *Command   1 * plot perspective    v:   0.00       0.00       0.00    
+                                                           t=     0.12     0.03
+ Body occupies the space with:
+                 X             Y             Z
+   Minimum    0.00000E+00   0.00000E+00   0.00000E+00
+   Maximum    1.00000E+00   1.00000E+00   1.00000E+00
+   View pt    3.00000E+00   2.00000E+00   1.50000E+00
+
+   Components of vertical vector   (X,Y,Z).
+          X= 0.00E+00, Y= 0.00E+00, Z= 1.00E+00
+
+ *Command   2 * plot node           v:   0.00       0.00       0.00    
+                                                           t=     0.12     0.03
+ *Command   3 * plot hide           v:   0.00       0.00       0.00    
+                                                           t=     0.12     0.03
+ *Command   4 * plot unde           v:   0.00       0.00       0.00    
+                                                           t=     0.12     0.03
+ *End of Solution Execution*                               t=     0.12     0.03
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+     Solution Commands       Variable 1  Variable 2  Variable 3
+       prop                  1.0000E+00  0.0000E+00  0.0000E+00
+       dt                    2.0000E+00  0.0000E+00  0.0000E+00
+ *Command   1 * prop                v:   1.00       0.00       0.00    
+                                                           t=     0.12     0.03
+  Proportional Load Table Number  1
+  Type 2: Piecewise Linear Function Variation
+  Linear Interpolation Table
+   No.    Time        Value
+    1   0.00000E+00   0.00000E+00
+    2   4.14000E+02   4.14000E+02
+    3   8.28000E+02   0.00000E+00
+ *Command   2 * dt                  v:   2.00       0.00       0.00    
+                                                           t=     0.12     0.03
+ *End of Solution Execution*                               t=     0.12     0.03
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+     Solution Commands       Variable 1  Variable 2  Variable 3
+       loop                  4.1400E+02  0.0000E+00  0.0000E+00
+       time                  0.0000E+00  0.0000E+00  0.0000E+00
+       loop                  5.0000E+01  0.0000E+00  0.0000E+00
+       tang                  1.0000E+00  0.0000E+00  0.0000E+00
+       next                  0.0000E+00  0.0000E+00  0.0000E+00
+       reac      coor        3.0000E+00  1.0000E+00  0.0000E+00
+       plot      defo        1.0000E+00  1.0000E+00  0.0000E+00
+       plot      frame       1.0000E+00  0.0000E+00  0.0000E+00
+       plot      wipe        1.0000E+00  0.0000E+00  0.0000E+00
+       plot      stre        3.0000E+00  0.0000E+00  0.0000E+00
+       plot      boun        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      disp        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      node        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      frame       2.0000E+00  0.0000E+00  0.0000E+00
+       plot      wipe        2.0000E+00  0.0000E+00  0.0000E+00
+       plot      cont        1.0000E+00  0.0000E+00  0.0000E+00
+       plot      boun        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      disp        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      node        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      frame       3.0000E+00  0.0000E+00  0.0000E+00
+       plot      wipe        3.0000E+00  0.0000E+00  0.0000E+00
+       plot      cont        2.0000E+00  0.0000E+00  0.0000E+00
+       plot      boun        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      disp        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      node        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      frame       4.0000E+00  0.0000E+00  0.0000E+00
+       plot      wipe        4.0000E+00  0.0000E+00  0.0000E+00
+       plot      cont        3.0000E+00  0.0000E+00  0.0000E+00
+       plot      boun        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      disp        0.0000E+00  0.0000E+00  0.0000E+00
+       plot      node        0.0000E+00  0.0000E+00  0.0000E+00
+       next                  0.0000E+00  0.0000E+00  0.0000E+00
+ *Command   1 * loop                v:   414.       33.0       0.00    
+                                                           t=     0.12     0.03
+ *Command   2 * time                v:   0.00       0.00       0.00    
+                                                           t=     0.12     0.03
+
+   Computing solution at time  2.0000E+00: Total proportional load  2.0000E+00
+ *Command   3 * loop                v:   50.0       6.00       0.00    
+                                                           t=     0.31     0.05
+ *Command   4 * tang                v:   1.00       0.00       0.00    
+                                                           t=     0.31     0.05
+      DOF   1   7.5358160E+06   2.8024416E-01
+      DOF   2   6.9768099E+06   2.6156283E-01
+      DOF   3   0.0000000E+00   4.9043032E-01
+   Residual 1 norm =    6.6554525E+07   1.0000000E+00      t=     0.37     0.05
+ Condition check: D-max 0.2937E+11; D-min 0.6163E+10; Ratio 0.4765E+01
+ Maximum no. diagonal digits lost:  1
+   End Triangular Decomposition                            t=     0.37     0.05
+   Number of operations =     860 plus        0 Mega-ops
+  Time: CPU =         0.37 , System =         0.05
+--> SOLVE AT    20.48 Mflops. Time=        0.00
+   Energy convergence test
+    Initial   =    4.785632173942776E+04 Current   =    4.785632173942776E+04
+    Relative  =    1.000000000000000E+00 Tolerance =    1.000000000000000E-16
+ *Command   5 * next                v:   1.00       4.00       1.00    
+                                                           t=     0.37     0.05
+ *Command   4 * tang                v:   1.00       0.00       0.00    
+                                                           t=     0.37     0.05
+      DOF   1   7.2065971E+03   1.0087136E+04
+      DOF   2   6.6720120E+03   9.4146604E+03
+      DOF   3   0.0000000E+00   2.4204026E+07
+   Residual 1 norm =    6.3646940E+04   9.5631274E-04      t=     0.45     0.05
+ Condition check: D-max 0.2937E+11; D-min 0.6165E+10; Ratio 0.4765E+01
+ Maximum no. diagonal digits lost:  1
+   End Triangular Decomposition                            t=     0.45     0.05
+   Number of operations =     860 plus        0 Mega-ops
+  Time: CPU =         0.45 , System =         0.05
+--> SOLVE AT   122.79 Mflops. Time=        0.00
+   Energy convergence test
+    Initial   =    4.785632173942776E+04 Current   =    4.377811012123397E-02
+    Relative  =    9.147821756883199E-07 Tolerance =    1.000000000000000E-16
+ *Command   5 * next                v:   2.00       4.00       2.00    
+                                                           t=     0.45     0.05
+ *Command   4 * tang                v:   1.00       0.00       0.00    
+                                                           t=     0.45     0.05
+      DOF   1   4.8899052E-03   6.8422225E-03
+      DOF   2   4.5263356E-03   6.3861559E-03
+      DOF   3   0.0000000E+00   2.4192161E+07
+   Residual 1 norm =    4.3182174E-02   6.4882402E-10      t=     0.52     0.06
+ Condition check: D-max 0.2937E+11; D-min 0.6165E+10; Ratio 0.4765E+01
+ Maximum no. diagonal digits lost:  1
+   End Triangular Decomposition                            t=     0.52     0.06
+   Number of operations =     860 plus        0 Mega-ops
+  Time: CPU =         0.52 , System =         0.06
+--> SOLVE AT   122.27 Mflops. Time=        0.00
+   Energy convergence test
+    Initial   =    4.785632173942776E+04 Current   =    2.014296091285762E-14
+    Relative  =    4.209049124697412E-19 Tolerance =    1.000000000000000E-16
+ *Command   5 * next                v:   50.0       4.00       3.00    
+                                                           t=     0.52     0.06
+ *Command   6 * reac coor           v:   3.00       1.00       0.00    
+                                                           t=     0.52     0.06
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+  N o d a l    R e a c t i o n s
+
+   Node     1 React     2 React     3 React
+      5  3.0904E-06 -5.9895E-06 -2.4192E+07
+      6 -2.5105E-06 -3.6240E-06 -2.4192E+07
+      7 -4.1501E-06  6.5048E-06 -2.4192E+07
+      8  3.1578E-06  4.1621E-06 -2.4192E+07
+
+ Pr.Sum -4.1236E-07  1.0534E-06 -9.6769E+07
+   Sum   1.2705E-21  1.6941E-21  3.7253E-09
+  |Sum|  2.3250E-05  3.5777E-05  1.9354E+08
+  M_ref -4.8384E+07  4.8384E+07  1.5304E-06
+  M_cur -4.8400E+07  4.8400E+07  1.5309E-06
+   Energy: Displacements * Reactions =     9.349786454247362E+04
+
+ *Command   7 * plot defo           v:   1.00       1.00       0.00    
+                                                           t=     0.62     0.06
+  -> Plots on deformed mesh with scale: 1.00000E+00
+                     Eigenvector scale: 0.00000E+00
+ *Command   8 * plot frame          v:   1.00       0.00       0.00    
+                                                           t=     0.62     0.06
+ *Command   9 * plot wipe           v:   1.00       0.00       0.00    
+                                                           t=     0.62     0.06
+ *Command  10 * plot stre           v:   3.00       0.00       0.00    
+                                                           t=     0.62     0.06
+
+ Projected values are set to REAL
+    Minimum is  -1.06E+08 Maximum is  -8.61E+07
+   ------ Contour Values for Plot ------
+     -1.046745E+08  -1.029821E+08  -1.012898E+08  -9.959740E+07  -9.790505E+07
+     -9.621270E+07  -9.452034E+07  -9.282799E+07  -9.113564E+07  -8.944328E+07
+     -8.775093E+07
+ *Command  11 * plot boun           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  12 * plot disp           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  13 * plot node           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  14 * plot frame          v:   2.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  15 * plot wipe           v:   2.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  16 * plot cont           v:   1.00       0.00       0.00    
+                                                           t=     0.72     0.07
+    Minimum is  -1.04E-16 Maximum is   3.24E-04
+   ------ Contour Values for Plot ------
+      2.703195E-05   5.406390E-05   8.109586E-05   1.081278E-04   1.351598E-04
+      1.621917E-04   1.892237E-04   2.162556E-04   2.432876E-04   2.703195E-04
+      2.973515E-04
+ *Command  17 * plot boun           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  18 * plot disp           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  19 * plot node           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  20 * plot frame          v:   3.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  21 * plot wipe           v:   3.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  22 * plot cont           v:   2.00       0.00       0.00    
+                                                           t=     0.72     0.07
+    Minimum is  -1.42E-17 Maximum is   3.24E-04
+   ------ Contour Values for Plot ------
+      2.703195E-05   5.406390E-05   8.109586E-05   1.081278E-04   1.351598E-04
+      1.621917E-04   1.892237E-04   2.162556E-04   2.432876E-04   2.703195E-04
+      2.973515E-04
+ *Command  23 * plot boun           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  24 * plot disp           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  25 * plot node           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  26 * plot frame          v:   4.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  27 * plot wipe           v:   4.00       0.00       0.00    
+                                                           t=     0.72     0.07
+ *Command  28 * plot cont           v:   3.00       0.00       0.00    
+                                                           t=     0.72     0.07
+    Minimum is  -9.66E-04 Maximum is   0.00E+00
+   ------ Contour Values for Plot ------
+     -8.856833E-04  -8.051667E-04  -7.246500E-04  -6.441333E-04  -5.636167E-04
+     -4.831000E-04  -4.025833E-04  -3.220667E-04  -2.415500E-04  -1.610333E-04
+     -8.051667E-05
+ *Command  29 * plot boun           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.08
+ *Command  30 * plot disp           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.08
+ *Command  31 * plot node           v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.08
+ *Command  32 * next                v:   1.00       2.00       1.00    
+                                                           t=     0.72     0.08
+ *Command   2 * time                v:   0.00       0.00       0.00    
+                                                           t=     0.72     0.08
+
+   Computing solution at time  4.0000E+00: Total proportional load  4.0000E+00
+ *Command   3 * loop                v:   50.0       6.00       0.00    
+                                                           t=     0.80     0.08
+ *Command   4 * tang                v:   1.00       0.00       0.00    
+                                                           t=     0.80     0.08
+      DOF   1   7.5481877E+06   2.2285451E-06
+      DOF   2   6.9882639E+06   3.0998561E-06
+      DOF   3   0.0000000E+00   2.4192161E+07
+   Residual 1 norm =    6.6663788E+07   1.0000000E+00      t=     0.89     0.09
+ Condition check: D-max 0.2937E+11; D-min 0.6165E+10; Ratio 0.4765E+01
+ Maximum no. diagonal digits lost:  1
+   End Triangular Decomposition                            t=     0.89     0.09
+   Number of operations =     860 plus        0 Mega-ops
+  Time: CPU =         0.89 , System =         0.09
+--> SOLVE AT    95.55 Mflops. Time=        0.00
+   Energy convergence test
+    Initial   =    4.802665748410650E+04 Current   =    4.802665748410650E+04
+    Relative  =    1.000000000000000E+00 Tolerance =    1.000000000000000E-16
+ *Command   5 * next                v:   1.00       4.00       1.00    
+                                                           t=     0.89     0.09
+ *Command   4 * tang                v:   1.00       0.00       0.00    
+                                                           t=     0.89     0.09
+      DOF   1   7.2336318E+03   1.0124977E+04
+      DOF   2   6.6970411E+03   9.4499783E+03
+      DOF   3   0.0000000E+00   4.8395616E+07
+   Residual 1 norm =    6.3885703E+04   9.5832692E-04      t=     0.99     0.09
+ Condition check: D-max 0.2938E+11; D-min 0.6166E+10; Ratio 0.4764E+01
+ Maximum no. diagonal digits lost:  1
+   End Triangular Decomposition                            t=     0.99     0.09
+   Number of operations =     860 plus        0 Mega-ops
+  Time: CPU =         0.99 , System =         0.09
+--> SOLVE AT   122.27 Mflops. Time=        0.00
+   Energy convergence test
+    Initial   =    4.802665748410650E+04 Current   =    4.411927246456324E-02
+    Relative  =    9.186413291235949E-07 Tolerance =    1.000000000000000E-16
+ *Command   5 * next                v:   2.00       4.00       2.00    
+                                                           t=     0.99     0.09
+ *Command   4 * tang                v:   1.00       0.00       0.00    
+                                                           t=     0.99     0.09
+      DOF   1   4.9285675E-03   6.8971966E-03
+      DOF   2   4.5625394E-03   6.4364098E-03
+      DOF   3   0.0000000E+00   4.8383685E+07
+   Residual 1 norm =    4.3525734E-02   6.5291419E-10      t=     1.09     0.10
+ Condition check: D-max 0.2938E+11; D-min 0.6166E+10; Ratio 0.4764E+01
+ Maximum no. diagonal digits lost:  1
+   End Triangular Decomposition                            t=     1.09     0.10
+   Number of operations =     860 plus        0 Mega-ops
+  Time: CPU =         1.09 , System =         0.10
+--> SOLVE AT   124.38 Mflops. Time=        0.00
+   Energy convergence test
+    Initial   =    4.802665748410650E+04 Current   =    2.047017674681770E-14
+    Relative  =    4.262253052607693E-19 Tolerance =    1.000000000000000E-16
+ *Command   5 * next                v:   50.0       4.00       3.00    
+                                                           t=     1.09     0.10
+ *Command   6 * reac coor           v:   3.00       1.00       0.00    
+                                                           t=     1.09     0.10
+
+ feap ** Compression of a Si block - Phase 2 - Supercell**                     
+
+  N o d a l    R e a c t i o n s
+
+   Node     1 React     2 React     3 React
+      5 -4.5846E-06 -3.8517E-06 -4.8384E+07
+      6  2.6374E-06 -2.4402E-06 -4.8384E+07
+      7 -2.9790E-06  3.3576E-06 -4.8384E+07
+      8  3.7501E-06  3.1077E-06 -4.8384E+07
+
+ Pr.Sum -1.1760E-06  1.7346E-07 -1.9353E+08
+   Sum   2.5411E-21  4.2352E-22 -1.4901E-08
+  |Sum|  2.5113E-05  2.1218E-05  3.8707E+08
+  M_ref -9.6767E+07  9.6767E+07 -1.0358E-07
+  M_cur -9.6830E+07  9.6830E+07 -1.0365E-07
+   Energy: Displacements * Reactions =     3.739865278593663E+05
+
+ *Command   7 * plot defo           v:   1.00       1.00       0.00    
+                                                           t=     1.20     0.10
+  -> Plots on deformed mesh with scale: 1.00000E+00
+                     Eigenvector scale: 0.00000E+00
+ *Command   8 * plot frame          v:   1.00       0.00       0.00    
+                                                           t=     1.20     0.10
+ *Command   9 * plot wipe           v:   1.00       0.00       0.00    
+                                                           t=     1.20     0.10
+ *Command  10 * plot stre           v:   3.00       0.00       0.00    
+                                                           t=     1.20     0.10
+
+ Projected values are set to REAL
+    Minimum is  -2.13E+08 Maximum is  -1.72E+08
+   ------ Contour Values for Plot ------
+     -2.092102E+08  -2.058277E+08  -2.024453E+08  -1.990628E+08  -1.956803E+08
+     -1.922979E+08  -1.889154E+08  -1.855330E+08  -1.821505E+08  -1.787680E+08
+     -1.753856E+08
+ *Command  11 * plot boun           v:   0.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  12 * plot disp           v:   0.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  13 * plot node           v:   0.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  14 * plot frame          v:   2.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  15 * plot wipe           v:   2.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  16 * plot cont           v:   1.00       0.00       0.00    
+                                                           t=     1.30     0.11
+    Minimum is  -5.01E-17 Maximum is   6.49E-04
+   ------ Contour Values for Plot ------
+      5.411571E-05   1.082314E-04   1.623471E-04   2.164628E-04   2.705785E-04
+      3.246943E-04   3.788100E-04   4.329257E-04   4.870414E-04   5.411571E-04
+      5.952728E-04
+ *Command  17 * plot boun           v:   0.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  18 * plot disp           v:   0.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  19 * plot node           v:   0.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  20 * plot frame          v:   3.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  21 * plot wipe           v:   3.00       0.00       0.00    
+                                                           t=     1.30     0.11
+ *Command  22 * plot cont           v:   2.00       0.00       0.00    
+                                                           t=     1.30     0.11
+    Minimum is  -9.18E-17 Maximum is   6.49E-04
+   ------ Contour Values for Plot ------
+      5.411571E-05   1.082314E-04   1.623471E-04   2.164628E-04   2.705785E-04
+      3.246943E-04   3.788100E-04   4.329257E-04   4.870414E-04   5.411571E-04
+      5.952728E-04
+ *Command  23 * plot boun           v:   0.00       0.00       0.00    
+                                                           t=     1.30     0.12
+ *Command  24 * plot disp           v:   0.00       0.00       0.00    
+                                                           t=     1.30     0.12
+ *Command  25 * plot node           v:   0.00       0.00       0.00    
+                                                           t=     1.30     0.12
