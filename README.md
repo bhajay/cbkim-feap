@@ -50,7 +50,7 @@ Within each subdirectory of cases 1-3, feap_cbkim.in is the Cbkim input file to 
     0.2715474887350542E+01 0.0000000000000000E+00 0.2715474887350542E+01
     0.2715474887350542E+01 0.2715474887350542E+01 0.0000000000000000E+00
    ```
-   ###### Define 2 Atoms of Material Number 14 with 3 Position Components (x1, x2, x3)
+   ###### Define 2 atoms of material number 14 (Si) with 3 position components x1, x2, x3
    ```
    2
    14  0.0000000000000000E+00 0.0000000000000000E+00 0.0000000000000000E+00
