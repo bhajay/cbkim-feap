@@ -1,0 +1,19 @@
+
+MATErial       1
+  solid              0   1   1   2   3
+    finite
+    ucon KIMModel
+    ELEMENT Si(diamond)-SW
+     
+Parameters
+ nx = 1
+ ny = 1
+ nz = 1
+ ax = 2 ! x-dimension
+ ay = 2 ! y-dimension
+ az = 2 ! z-dimension
+ 
+Parameters
+ ep = -0.001 ! Strain
+ e = ep*az   ! Displacement
+ 
