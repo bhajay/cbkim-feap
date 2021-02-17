@@ -16,7 +16,7 @@ This directory is a working copy of the spglib library (https://github.com/spgli
 ## spglib_test
 This directory contains a test file spg_lib.py which can be used as an example script for identifying a crystal structure space group using spglib.
 
-## Notes on feap_cbkim.in input files
+## About feap_cbkim.in input files
 Within each subdirectory of cases 1-3, feap_cbkim.in is the Cbkim input file to FEAP defining basis vectors, initial atom positions, atom masses, and constitutive information of the material lattice. The data within this file is defined with the following structure (Example is taken from 01_Singlecell/01_P1_Nanoindentation).
 
 ###### Set convergence tolerance for conjugate gradient optimization step when minimizing energy of configuration
