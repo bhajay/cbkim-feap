@@ -26,7 +26,10 @@ This directory contains a test file spg_lib.py which can be used as an example s
 ## cbkim_setup_documentation
 Contains a PDF document outlining the process required to install CBKim and successfully integrate with FEAP.
 
-## About feap_cbkim.in input files
+## matlab_lattice_code
+Contains a matlab script lattice.m which can be used as a visualization tool for a crystal lattice given lattice basis vectors and primitive unit cell atom positions.
+
+# About feap_cbkim.in input files
 Within each subdirectory of cases 1-3, feap_cbkim.in is the Cbkim input file to FEAP defining basis vectors, initial atom positions, atom masses, and constitutive information of the material lattice. The data within this file is defined with the following structure (Example is taken from 01_Singlecell/01_P1_Nanoindentation).
 
 ###### Set convergence tolerance for conjugate gradient optimization step when minimizing energy of configuration
