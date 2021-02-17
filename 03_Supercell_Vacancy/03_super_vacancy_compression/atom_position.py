@@ -175,25 +175,6 @@ for t in np.arange(len(dispvec1[0])):
     atom_ax.set_ylabel('Y')
     atom_ax.set_zlabel('Z')
     atom_ax.grid(True)
-    '''
-    # draw lines for lattice shape
-    for i in np.arange(I):
-      for j in np.arange(J):
-        for k in np.arange(K):
-          for p in np.arange(n):
-            m = m+1
-            print('m='+str(m))
-          x = a_pos_atoms_time[(m-1):(m)][t][0]
-          y = a_pos_atoms_time[(m-1):(m)][t][1]
-          z = a_pos_atoms_time[(m-1):(m)][t][2]
-          print('x=.....')
-          print(x)
-          print('y=.....')
-          print(y)
-          print('z=.....')
-          print(z)
-          atom_ax.plot(x, y, z, color='k');
-          '''
 
     atom_ax.set_xlabel('X')
     atom_ax.set_ylabel('Y')
