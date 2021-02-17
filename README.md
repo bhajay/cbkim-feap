@@ -1,7 +1,11 @@
 # cbkim-feap
 The repository contains working FEAP input files, python processing scripts, and some sample output images for the multi-scale finite element simulation of a pure Silicon cube. The high level directories of 01_SingleCell, 02_Supercell, and 03_Supercell_Vacancy each contain an ordered set of subdirectories chronologically sequenced with newer python processing codes and most recently tested input files found in the subdirectory with the greatest leading number. 
 
-The Cbkim api is 
+The CBKim api is inspired by the open knowledgebase of interatomic models website OpenKIM (https://openkim.org/doc/overview/getting-started/). 
+
+You can get started by installing the KIM API package by following the instructions at https://openkim.org/doc/usage/obtaining-models/
+
+To access the GitHub for CBKim, you will need a public ssh key if you don't already have one. This can be done by following these instructions https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
 
 ## Case 1: 01_SingleCell
 This directory contains multiple sets of FEAP simulation input files for a single unit cell of Silicon subject to a uniform vertical displacement. The single cell is composed of two atoms in the basis.
