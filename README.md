@@ -7,6 +7,7 @@ You can get started by installing the KIM API package by following the instructi
 
 To access the GitHub for CBKim, you will need a public ssh key if you don't already have one. This can be done by following these instructions https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
 
+# Overview of Files and Structure
 ## Case 1: 01_SingleCell
 This directory contains multiple sets of FEAP simulation input files for a single unit cell of Silicon subject to a uniform vertical displacement. The single cell is composed of two atoms in the basis.
 
