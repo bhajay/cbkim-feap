@@ -1,0 +1,35 @@
+
+  --------------------------------- START OF FEAP LOG ----------------------------------
+
+  INPUT FILE NAME: Isi                                                                                                                             
+
+  MESH INPUT RECORDS
+  ------------------
+     KIMSetup                       
+     mate            1              
+     param                          
+     block                          
+     eboun                          
+     cboun                          
+     param                          
+     edisp                          
+     end                            
+
+  --------------------------------- END OF MESH INPUTS ---------------------------------
+
+  CONVERGENCE LABELS
+  ----------------
+    UN = Unconverged
+    LI = Linear Problem: No Test
+    ER = Energy & Residual Converged
+    EN = Energy Converged
+    RN = Residual Converged
+    ET = Energy Converged to Zero Tolerance
+    RT = Residual Converged to Tolerance
+
+  SOLUTION SUMMARY
+  ----------------
+    Load  Total     Solution      Time     Residual Norm        Energy Norm     CPU Time Cn
+    Step Tang+Form      Time      Incr.  Initial     Final   Initial     Final (Seconds)
+  -----------------------------------------------------------------------------------------
+       1    3   0  2.000E+00  2.00E+00  6.61E+07  1.09E-01  6.74E+04  1.84E-13      2.02 EN
