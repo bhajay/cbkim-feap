@@ -13,13 +13,13 @@ SSH Key: https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Pu
 ___
 
 # Directory Overview
-## Case 1: 01_SingleCell
+## 01_SingleCell
 This directory contains multiple sets of FEAP simulation input files for a single unit cell of Silicon subject to a uniform vertical displacement. The single cell is composed of two atoms in the basis.
 
-## Case 2: 02_Supercell
+## 02_Supercell
 This directory contains the FEAP simulation input files for a supercell of Silicon subject to a uniform vertical displacement. The supercell is composed of 16 atoms in the basis.
 
-## Case 3: 03_Supercell_Vacancy
+## 03_Supercell_Vacancy
 This directory contains the FEAP simulation input files for a single unit cell of Silicon subject to a uniform vertical displacement. The supercell with vacancy is composed of 16-1=15 atoms in the basis in which the 14th atom was removed.
 
 ## spglib
