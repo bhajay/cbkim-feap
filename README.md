@@ -17,4 +17,42 @@ This directory is a working copy of the spglib library (https://github.com/spgli
 This directory contains a test file spg_lib.py which can be used as an example script for identifying a crystal structure space group using spglib.
 
 ## Notes on feap_cbkim.in input files
-Within each subdirectory of cases 1-3, the feap_cbkim.in is defined to provide 
+Within each subdirectory of cases 1-3, feap_cbkim.in is the Cbkim input file to FEAP defining basis vectors, initial atom positions, atom masses, and constitutive information of the material lattice. The data within this file is defined with the following structure (Example is taken from 01_Singlecell/01_P1_Nanoindentation).
+
+###### Set convergence tolerance for conjugate gradient optimization step when minimizing energy of configuration
+```
+% Set convergence tolerance for CG
+ fact,gtol,1e-16
+ ```
+ ###### Read in material definitions
+ ```
+ % read in material definitions
+ mate,dire
+  1
+  'Si(diamond)-SW'
+  ```
+  ###### Define lattice basis vectors 
+  ```
+    0.0000000000000000E+00 0.2715474887350542E+01 0.2715474887350542E+01
+    0.2715474887350542E+01 0.0000000000000000E+00 0.2715474887350542E+01
+    0.2715474887350542E+01 0.2715474887350542E+01 0.0000000000000000E+00
+   ```
+   ###### Define 2 Atoms of Material Number 14 with 3 Position Components (x1, x2, x3)
+   ```
+   2
+   14  0.0000000000000000E+00 0.0000000000000000E+00 0.0000000000000000E+00
+   14  0.1357737443675271E+01 0.1357737443675271E+01 0.1357737443675271E+01
+   ```
+   ###### Define Masses of the 2 atoms
+   ```
+    0.2883000000000000E+02
+    0.2883000000000000E+02
+   ```
+ ###### Read in the Consitutive Model information from OpenKim 
+ ```
+ % read in constitutive information
+ cons,kim,SW_StillingerWeber_1985_Si__MO_405512056662_005
+ 
+ % Find optimal lattice parameters and reset lattice
+ opti,,1
+ ```
