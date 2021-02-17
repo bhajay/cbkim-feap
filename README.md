@@ -79,6 +79,11 @@ Within each subdirectory of cases 1-3, feap_cbkim.in is the Cbkim input file to 
  ___
  
 # atom_position.py 
-This script can be found in `02*\02*` and `\03*\03*` to plot the components of atom positions over time.   
+This script can be found in `02*\04*` and `\03*\03*` to plot the components of atom positions over time.   
 Given output file (`Osi`) and history files (`Psia.his`, `Psia.his`) from FEAP, this python script will iteratively plot the 15 atom (supercell) or 14 atom (super. vacancy) position components on one figure for all time steps throughout the simulation. Notice the atoms located at position `(0,0,0)` is implied to remain stationary and is therefore leftout from the history file data.  
-A numpy array will be output as `R_out.npy` containing the components of each atom position for every time step through the simulation. This numpy array is then utilized within 
+A numpy array will be output as `R_out.npy` containing the components of each atom position for every time step through the simulation. This numpy array is then utilized within `spg_ID.py` to get crystal structure data.
+
+___
+
+# spg_ID.py
+This script can be found in `02*\04*` and `\03*\03*` to identify crystal symmetry groups over time during the simulation. Given input array `R_out.npy` this python script will return the international space-group number for given set of atoms in the basis.
