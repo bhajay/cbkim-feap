@@ -5,3 +5,6 @@ FEAP input file. Prescribing a -0.001 strain in the 3 direction on the constrain
 
 ## feap_cbkim.in
 Cbkim input file to FEAP defining basis vectors, initial atom positions, atom masses, and constitutive information of the material lattice.
+
+## si.py
+A python script to read the output file (Osi_p1) and plot loads versus solution timestep.
