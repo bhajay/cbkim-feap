@@ -1,2 +1,4 @@
 # cbkim-feap
-for working codes and research on cbkim-feap computational simulation
+The repository contains working FEAP input files, python processing scripts, and some sample output images for the multi-scale finite element simulation of a pure Silicon cube.
+
+
