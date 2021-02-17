@@ -20,7 +20,7 @@ This directory contains multiple sets of FEAP simulation input files for a singl
 This directory contains the FEAP simulation input files for a supercell of Silicon subject to a uniform vertical displacement. The supercell is composed of 16 atoms in the basis.
 
 ## 03_Supercell_Vacancy
-This directory contains the FEAP simulation input files for a single unit cell of Silicon subject to a uniform vertical displacement. The supercell with vacancy is composed of 16-1=15 atoms in the basis in which the 14th atom was removed.
+This directory contains the FEAP simulation input files for a supercell of Silicon subject to a uniform vertical displacement. The supercell with vacancy is composed of 16-1=15 atoms in the basis in which the 14th atom was removed.
 
 ## spglib
 This directory is a working copy of the spglib library (https://github.com/spglib/spglib) for handling crystal symmetries.
