@@ -80,5 +80,5 @@ Within each subdirectory of cases 1-3, feap_cbkim.in is the Cbkim input file to 
  
 # atom_position.py 
 This script can be found in `02*\02*` and `\03*\03*` to plot the components of atom positions over time.   
-Given output file (`Osi`) and history files (`Psia.his`, `Psia.his`) from FEAP, this python script will iteratively plot the 15 atom position components on one figure for all time steps throughout the simulation. Notice the atoms located at position `(0,0,0)` is implied to remain stationary and is therefore leftout from the history file data.  
+Given output file (`Osi`) and history files (`Psia.his`, `Psia.his`) from FEAP, this python script will iteratively plot the 15 atom (supercell) or 14 atom (super. vacancy) position components on one figure for all time steps throughout the simulation. Notice the atoms located at position `(0,0,0)` is implied to remain stationary and is therefore leftout from the history file data.  
 A numpy array will be output as `R_out.npy` containing the components of each atom position for every time step through the simulation. This numpy array is then utilized within 
