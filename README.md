@@ -9,3 +9,9 @@ This directory contains the FEAP simulation input files for a supercell of Silic
 
 ## 03_Supercell_Vacancy
 This directory contains the FEAP simulation input files for a single unit cell of Silicon subject to a uniform vertical displacement. The supercell with vacancy is composed of 16-1=15 atoms in the basis in which the 14th atom was removed.
+
+## spglib
+This directory is a working copy of the spglib library (https://github.com/spglib/spglib) for handling crystal symmetries.
+
+## spglib_test
+This directory contains a test file spg_lib.py which can be used as an example script for identifying a crystal structure space group using spglib.
