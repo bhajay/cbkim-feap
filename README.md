@@ -1,13 +1,13 @@
 # cbkim-feap
 The repository contains working FEAP input files, python processing scripts, and some sample output images for the multi-scale finite element simulation of a pure Silicon cube. The high level directories of 01_SingleCell, 02_Supercell, and 03_Supercell_Vacancy each contain an ordered set of subdirectories chronologically sequenced with newer python processing codes and most recently tested input files found in the subdirectory with the greatest leading number. 
 
-The CBKim api is inspired by the open knowledgebase of interatomic models website OpenKIM 
+The CBKim api is inspired by the open knowledgebase of interatomic models website OpenKIM  
 OpenKIM: https://openkim.org/doc/overview/getting-started/
 
-You can get started by installing the KIM API package by following the instructions below.
+You can get started by installing the KIM API package by following the instructions below.  
 KIM API: https://openkim.org/doc/usage/obtaining-models/
 
-To access the GitHub for CBKim, you will need a public ssh key if you don't already have one. This can be done by following these instructions.
+To access the GitHub for CBKim, you will need a public ssh key if you don't already have one. This can be done by following these instructions.  
 SSH Key: https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
 
 # Overview of Files and Structure
