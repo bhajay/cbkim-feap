@@ -1,6 +1,8 @@
 # cbkim-feap
 The repository contains working FEAP input files, python processing scripts, and some sample output images for the multi-scale finite element simulation of a pure Silicon cube. The high level directories of 01_SingleCell, 02_Supercell, and 03_Supercell_Vacancy each contain an ordered set of subdirectories chronologically sequenced with newer python processing codes and most recently tested input files found in the subdirectory with the greatest leading number. 
 
+The Cbkim api is 
+
 ## Case 1: 01_SingleCell
 This directory contains multiple sets of FEAP simulation input files for a single unit cell of Silicon subject to a uniform vertical displacement. The single cell is composed of two atoms in the basis.
 
