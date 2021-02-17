@@ -7,7 +7,7 @@ OpenKIM: https://openkim.org/doc/overview/getting-started/
 You can get started by installing the KIM API package by following the instructions below.  
 KIM API: https://openkim.org/doc/usage/obtaining-models/
 
-To access the GitHub for CBKim, you will need a public ssh key if you don't already have one. 
+To access the GitHub for CBKim, you will need a public ssh key if you don't already have one.  
 SSH Key: https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
 
 # Overview of Files and Structure
